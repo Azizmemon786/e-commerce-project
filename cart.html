@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <title> Products cart in Redstore</title>
+</head>
+
+<body>
+    <div class="containor">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html" target="_blank"><img src="images/logo.png" width="125px"></a>
+            </div>
+            <nav>
+                <ul id="menuItems">
+                    <li><a href="index.html" target="_blank">Home</a></li>
+                    <li><a href="product.html" target="_blank">Product</a></li>
+                    <li><a href="account.html" target="_blank">Contact</a></li>
+                    <li><a href="sale.html" target="_blank">Sale</a></li>  
+                </ul>
+            </nav>
+            <a href="cart.html" target="_blank"><img src="images/cart.png" width="30px" height="30px"></a>
+            <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="small-containor cart-page">
+        <table>
+            <tr>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>subtotal</th>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="images/buy-1.jpg" alt="">
+                        <div>
+                            <p>Red Printed T-Shirt</p>
+                            <small> price:$50.00</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$50.00</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="images/buy-2.jpg" alt="">
+                        <div>
+                            <p>Red Printed T-Shirt</p>
+                            <small> price:$50.00</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$50.00</td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="images/buy-3.jpg" alt="">
+                        <div>
+                            <p>Red Printed T-Shirt</p>
+                            <small> price:$50.00</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>$50.00</td>
+            </tr>
+        </table>
+        <div class="total-price">
+            <table>
+                <tr>
+                    <td>subtotal</td>
+                    <td>$50.00</td>
+                </tr>
+                <tr>
+                    <td>Tax</td>
+                    <td>$5.00</td>
+                </tr>
+                <tr>
+                    <td>Total</td>
+                    <td>$50.00</td>
+                </tr>
+            </table>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    </div>
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="footer">
+        <div class="containor">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Downlad Our App</h3>
+                    <p>Downlad App for Android and ios Mobile Phone </p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png" alt="">
+                        <img src="images/app-store.png" alt="">
+                    </div>
+                </div>
+
+                <div class="footer-col-2">
+                    <img src="images/logo-white.png" alt="">
+                    <p>Our purpose is to sustainably make the pleasure and benifits of sports
+                        accessible to the many.</p>
+                </div>
+
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li><a href="">coupons</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Returns policy</a></li>
+                        <li><a href="">Join Affiliate</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li><a href="">Facebook</a></li>
+                        <li><a href="">Twitter</a></li>
+                        <li><a href="">Instagram</a></li>
+                        <li><a href="">Youtube</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="cr"> All Right Reserved &copy; By RedStore</p>
+        </div>
+    </div>
+
+
+
+
+
+    <script>
+        var menuItems = document.getElementById("menuItems");
+
+        menuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (menuItems.style.maxHeight == "0px") {
+                menuItems.style.maxHeight = "200px";
+
+            }
+            else {
+                menuItems.style.maxHeight = "0px";
+
+            }
+        }
+    </script>
+
+
+
+</body>
+
+</html>
